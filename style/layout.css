@@ -4,3 +4,19 @@ body > * {
     width: 100%;
     padding: 0 calc( max(5px, ( 100vw - 50em ) / 2 ));
 }
+
+main {
+    text-align: left;
+    padding: 1em;
+    max-width: 240px;
+    margin: 0 auto;
+
+    @media (min-width: 640px) {
+        max-width: none;
+    }
+}
+
+.svelte-main{
+    width: 50rem;
+    margin: 0 auto;
+}
